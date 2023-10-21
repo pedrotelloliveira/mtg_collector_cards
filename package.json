@@ -1,0 +1,35 @@
+{
+  "name": "mtg_collection_cards",
+  "version": "1.0.0",
+  "description": "This websites serves the purpose to allow users to search the MTG database. They also have the possiblity to mark cards as owned, create wishlists and their own decks.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "Pedro",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
